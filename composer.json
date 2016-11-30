@@ -1,0 +1,21 @@
+{
+  "name": "arashfarahani/j-eloquent",
+  "description": "Convert eloquent date attributes to Jalali (Persian) dates",
+  "authors": [
+    {
+      "name": "Arash Farahani",
+      "email": "arashmf71@gmail.com"
+    }
+  ],
+  "license": "GPL",
+  "autoload": {
+    "psr-4": {
+      "Diamond\\JEloquent\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/database": "5.*",
+    "morilog/jalali": "^2.2"
+  },
+  "minimum-stability": "stable"
+}
